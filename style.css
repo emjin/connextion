@@ -1,0 +1,84 @@
+body {
+  font-family: 'Lato', 'Helvetica Neue', Helvetica, Arial, sans-serif;
+  /*background-color:#cef4c8;*/
+}
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+  font-family: Vollkorn, Helvetica, Arial, sans-serif;
+  font-weight: 700;
+}
+
+.navbar {
+  margin-bottom: 0;
+  background-color: #cef4c8 !important;
+  z-index: 9999;
+  border: 0;
+  font-size: 14px !important;
+  line-height: 1.42857143 !important;
+  letter-spacing: 4px;
+  border-radius: 0;
+}
+.navbar-brand{
+  font-family: Vollkorn;
+}
+.btn {
+  background-color: #295a22;
+  outline:none;
+}
+ul{
+  list-style-type:none;
+  margin:0;
+  padding:0;
+  width:200px;
+}
+li {
+    display: block;
+    text-align:center;
+    display:inline;
+}
+li a:hover {
+    background-color: white;
+    color: black;
+
+}
+header.masthead {
+  position: relative;
+  background-color: #12d250;
+  background-size: cover;
+  padding-top: 8rem;
+  padding-bottom: 8rem;
+}
+
+header.masthead .overlay {
+  position: absolute;
+  background-color: #212529;
+  height: 100%;
+  width: 100%;
+  top: 0;
+  left: 0;
+  opacity: 0.3;
+}
+
+header.masthead h1 {
+  font-size: 2rem;
+}
+
+@media (min-width: 768px) {
+  header.masthead {
+    padding-top: 12rem;
+    padding-bottom: 12rem;
+  }
+  header.masthead h1 {
+    font-size: 3rem;
+  }
+}
+
+footer.footer {
+  padding-top: 4rem;
+  padding-bottom: 4rem;
+}
