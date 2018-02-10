@@ -44,12 +44,12 @@
           </div>
           <div class="col-md-10 col-lg-8 col-xl-7 mx-auto">
             <form>
-              <div class="form-row" action="Javascript:returnResults()">
+              <div class="form-row">
                 <div class="col-12 col-md-9 mb-2 mb-md-0">
                   <input class="form-control form-control-lg" placeholder="Enter your location (city, state, or zip)">
                 </div>
                 <div class="col-12 col-md-3">
-                  <button type="submit" class="btn btn-block btn-lg btn-primary">Search!</button>
+                  <button type="submit" class="btn btn-block btn-lg btn-primary" onclick="returnResults()">Search!</button>
                 </div>
               </div>
             </form>
@@ -65,7 +65,7 @@
   </div>
 
   <footer class="container-fluid text-center" style="background-color: white;">
-    <a href="#top" class="backtotop"><span class="fa fa-angle-up"></span><p>Back to Top</p></a>
+    <a href="#top" class="backtotop" style="color:#818181;padding:15px 0px 15px 0px;padding-top:8rem;padding-bottom:4rem;"><span class="fa fa-angle-up"></span><p>Back to Top</p></a>
   </footer>
     <!-- Bootstrap core-for JavaScript -->
     <script src="{{ url_for('static', filename='vendor/jquery/jquery.min.js') }}"></script>

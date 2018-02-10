@@ -1,10 +1,8 @@
 # Python Flask app on Azure App Service Web
 
-This is a minimal sample app that demonstrates how to run a Python Flask application on Azure App Service Web.
+This webapp interfaces with a central database of resources available to K-12 students looking to further their education, such as summer math/science camps, focusing on opportunities accessible to low-income students. The SQL database is hosted on Microsoft Azure. 
 
 This repository can directly be deployed to Azure App Service.
-
-For more information, please see the [Python on App Service Quickstart docs](https://docs.microsoft.com/en-us/azure/app-service-web/app-service-web-get-started-python).
 
 # Contributing
 

@@ -1,7 +1,8 @@
 function returnResults() { //gets and prints results from 
-	document.getElementById("showrec").innerHTML = "- Results -";
-	document.getElementById("dashes").innerHTML = "- - -";
+	//document.getElementById("showresults").innerHTML = "- Results -";
+	//document.getElementById("dashes").innerHTML = "- - -";
 	
+	console.log("Hello");
 	var mysql      = require('mysql');
 	var connection = mysql.createConnection({
 	  host     : 'connextionopps.database.windows.net',
