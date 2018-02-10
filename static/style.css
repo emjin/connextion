@@ -67,7 +67,24 @@ header.masthead .overlay {
 header.masthead h1 {
   font-size: 2rem;
 }
+footer {
+    margin: 0 auto;
+    width: 900px;
+    padding: 15px 0px 15px 0px;
+    background: #CC0011;
+    padding-top: 8rem;
+    padding-bottom: 4rem;
 
+}
+
+a.backtotop {
+  color: #818181;
+}
+
+a.backtotop:hover {
+  color: #818181;
+  text-decoration: none;
+}
 @media (min-width: 768px) {
   header.masthead {
     padding-top: 12rem;

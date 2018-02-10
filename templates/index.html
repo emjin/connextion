@@ -57,11 +57,20 @@
         </div>
       </div>
     </header>
+<!-- Container (Portfolio Section) -->
+  <div id="portfolio" class="container-fluid text-center">
+    <h2 style="margin-bottom: -5px; margin-top: -50px; color:#ff8b8e;" id="dashes"></h2><br>
+    <h2 style="margin-bottom: -5px; margin-top: -20px;" id="showresults"></h2><br>
+    <div id="output"></div>
+  </div>
 
+  <footer class="container-fluid text-center" style="background-color: white;">
+    <a href="#top" class="backtotop"><span class="fa fa-angle-up"></span><p>Back to Top</p></a>
+  </footer>
     <!-- Bootstrap core-for JavaScript -->
     <script src="{{ url_for('static', filename='vendor/jquery/jquery.min.js') }}"></script>
     <script src="{{ url_for('static', filename='vendor/bootstrap/js/bootstrap.bundle.min.js') }}"></script>
-
+    <script src="{{ url_for('static', filename='script.js') }}"></script>
 </body>
 
 </html>
