@@ -12,7 +12,7 @@ function returnResults() { //gets and prints results from
 
 	connection.connect();
 
-	connection.query('SELECT * from programs where cost=0', function(err, rows, fields) {
+	connection.query('SELECT * from programs', function(err, rows, fields) {
 	  if (!err)
 	    console.log('The solution is: ', rows);
 	  else
