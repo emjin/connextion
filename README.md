@@ -1,6 +1,6 @@
-# Python Flask app on Azure App Service Web
+# About
 
-This webapp interfaces with a central database of resources available to K-12 students looking to further their education, such as summer math/science camps, focusing on opportunities accessible to low-income students. The SQL database is hosted on Microsoft Azure. 
+This Python Flask webapp interfaces with a central database of resources available to K-12 students looking to further their education, such as summer math/science camps, focusing on opportunities accessible to low-income students. The SQL database is hosted on Microsoft Azure. 
 
 This repository can directly be deployed to Azure App Service.
 
