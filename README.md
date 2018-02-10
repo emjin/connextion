@@ -1,6 +1,6 @@
 # About
 
-This Python Flask webapp interfaces with a central database of resources available to K-12 students looking to further their education, such as summer math/science camps, focusing on opportunities accessible to low-income students. The SQL database is hosted on Microsoft Azure. 
+Connexion is a Python Flask webapp that makes it easy to find resources available to K-12 students looking to further their education. The current emphasis is on summer math/science camps accessible to low-income students. Future development will focus on increasing the flexibility of the service. The SQL database is hosted on Microsoft Azure. 
 
 This repository can directly be deployed to Azure App Service.
 
